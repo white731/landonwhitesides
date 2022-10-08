@@ -19,9 +19,9 @@ function App() {
     <div className="App">
       <header className="App-header">
         
-        <p>
+        <h2 style={{margin:0, marginTop: 50, marginBottom: 20}}>
           Landon Whitesides
-        </p>
+        </h2>
         <FlipCard
           image={landonHeadShot} 
           title="About Me" 
@@ -39,8 +39,8 @@ function App() {
           alt="pricing summary"
         />
         <div style={{margin:"10px"}}>
-          <a href="https://www.instagram.com/landon.whitesides/" target="_blank"><Image width="50px" src={instagramIcon}/></a>
-          <a href="https://www.youtube.com/channel/UCs3i6VAMPkWq6LhmgEVEuug" target="_blank" ><Image width="50px" src={youTubeIcon}/></a>
+          <a href="https://www.instagram.com/landon.whitesides/" target="_blank" rel="noreferrer"><Image width="50px" src={instagramIcon}/></a>
+          <a href="https://www.youtube.com/channel/UCs3i6VAMPkWq6LhmgEVEuug" target="_blank" rel="noreferrer" ><Image width="50px" src={youTubeIcon}/></a>
         </div>
 
         <div
