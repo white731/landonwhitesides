@@ -11,11 +11,11 @@ export const FlipCard = (props) => {
           </div>
           <div class="flip-box-back">
             <h2>{title}</h2>
-            <p style={{fontSize:"15pt"}}>{description}</p>
-            <p style={{fontSize:"15pt"}}>{description2 || ""}</p>
-            <p style={{fontSize:"15pt"}}>{description3 || ""}</p>
-            <p style={{fontSize:"15pt"}}>{description4 || ""}</p>
-            <p style={{fontSize:"15pt"}}>{description5 || ""}</p>
+            <p class="paragraph">{description}</p>
+            <p class="paragraph">{description2 || ""}</p>
+            <p class="paragraph">{description3 || ""}</p>
+            <p class="paragraph">{description4 || ""}</p>
+            <p class="paragraph">{description5 || ""}</p>
           </div>
         </div>
       </div>

@@ -71,6 +71,10 @@
   border-radius: 25px;
 }
 
+.paragraph {
+  font-size: 15pt;
+}
+
 /* When in phone mode */
 
 @media(max-width: 525px){
@@ -92,6 +96,10 @@
 .main-image {
   width: 300px;
   border-radius: 25px;
+}
+
+.paragraph {
+  font-size: 9pt;
 }
 }
 
