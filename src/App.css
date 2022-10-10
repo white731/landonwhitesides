@@ -7,6 +7,10 @@
   pointer-events: none;
 }
 
+p{
+  font-size: 15pt;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -20,7 +24,6 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 4vmin);
   color: white;
 }
 
@@ -84,7 +87,7 @@
   height: 300px;
   /* border: 1px solid #f1f1f1; */
   perspective: 1000px;
-  margin: 10px;
+  margin: 50px;
 }
 
 .flip-box-back {
@@ -101,5 +104,8 @@
 .paragraph {
   font-size: 9pt;
 }
-}
 
+p {
+  font-size: 9pt;
+}
+}

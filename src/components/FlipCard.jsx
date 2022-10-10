@@ -1,21 +1,19 @@
+import React from "react"
+
 
 export const FlipCard = (props) => {
 
-    const {image, alt, title, description, description2, description3, description4, description5} = props
+    const {image, alt, title, component} = props
 
     return(
-        <div class="flip-box">
-        <div class="flip-box-inner">
-          <div class="flip-box-front">
-            <img class="main-image" src={image} alt={alt}/>
+        <div className="flip-box">
+        <div className="flip-box-inner">
+          <div className="flip-box-front">
+            <img className="main-image" src={image} alt={alt}/>
           </div>
-          <div class="flip-box-back">
+          <div className="flip-box-back">
             <h2>{title}</h2>
-            <p class="paragraph">{description}</p>
-            <p class="paragraph">{description2 || ""}</p>
-            <p class="paragraph">{description3 || ""}</p>
-            <p class="paragraph">{description4 || ""}</p>
-            <p class="paragraph">{description5 || ""}</p>
+            {component}
           </div>
         </div>
       </div>
