@@ -54,18 +54,30 @@ function App() {
   const Pricing = () => {
     return(
       <>
-        <p>$400.00 - Live Vocals and Recorded Backtrack"</p>
-        <p>$600.00 - Live Vocals accompanied by live piano</p>
-        <p>$800.00 - Live Vocals, Piano and 1 other live instrument</p>
-        <p>$1000.00 - Live Vocals, Piano and 2 other live instruments</p>
-        <p>ricing represents performances not exceeding 2.5 hours in length</p>
+      <div style={{margin:7}}>
+        <h5 style={{margin: 0}}>$400.00</h5>
+        <p style={{margin:0}}>Live Vocals and Recorded Backtrack</p>
+      </div>
+      <div style={{margin:7}}>
+        <h5 style={{margin: 0}}>$600.00</h5>
+        <p style={{margin:0}}>Live Vocals accompanied by live piano</p>
+      </div>
+      <div style={{margin:7}}>
+        <h5 style={{margin: 0}}>$800.00</h5>
+        <p style={{margin:0}}>Live Vocals, Piano and 1 other live instrument</p>
+      </div>
+      <div style={{margin:7}}>
+        <h5 style={{margin: 0}}>$1000.00</h5>
+        <p style={{margin:0}}>Live Vocals, Piano and 2 other live instruments</p>
+      </div>
+        <p>*Pricing represents performances not exceeding 2.5 hours in length and includes all necessary audio equipment such as mics and speakers. </p>
       </>
     )
   }
 
   const TextMe = () => {
     return (
-      <p> Text or Call me at 208 312 8550 for questions and inquiries </p>
+      <p> Text or Call me at <a style = {{color: "grey"}} href='tel:2083128550'>208 312 8550</a> for questions and inquiries. </p>
     )
   }
 

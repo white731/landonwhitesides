@@ -9,6 +9,12 @@
 
 p{
   font-size: 15pt;
+  font-family: 'Lato', sans-serif;
+
+}
+
+h1,h2,h3,h4,h5,h6{
+font-family: 'Special Elite', cursive;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -26,11 +32,6 @@ p{
   justify-content: center;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
 
 
 .flip-box {
@@ -74,10 +75,6 @@ p{
   border-radius: 25px;
 }
 
-.paragraph {
-  font-size: 15pt;
-}
-
 /* When in phone mode */
 
 @media(max-width: 525px){
@@ -101,11 +98,9 @@ p{
   border-radius: 25px;
 }
 
-.paragraph {
-  font-size: 9pt;
-}
-
 p {
-  font-size: 9pt;
+  font-size: 10pt;
+  font-family: 'Lato', sans-serif;
+
 }
 }
